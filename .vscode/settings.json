@@ -1,0 +1,17 @@
+{
+  // eslint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // csscomb
+  "csscomb.formatOnSave": true,
+  "csscomb.preset": "zen",
+  // vetur
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+    },
+  },
+  "editor.formatOnSave": true
+}
